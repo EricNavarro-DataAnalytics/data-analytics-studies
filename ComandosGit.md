@@ -2,7 +2,7 @@
 ## O que faz?
 - transforma uma pasta comum em um repositório.
 ## Quando usar?
-- quando se começa um projeto do zero, primeiro comando a ser usado.
+- quando se começa um projeto do zero, o primeiro comando a ser usado.
 ## Exemplo
 - no caminho da pasta \MeuProjeto, usar git init, cria a pasta .git que guarda o histórico do projeto.
 
