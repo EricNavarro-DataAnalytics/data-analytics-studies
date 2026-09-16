@@ -38,8 +38,11 @@ git commit -m "Adicionado nota de comandos".
 - ao desenvolver funcionalidades separadas da main e só juntar quando estiver funcionando. para evitar erros na main.
 ## Exemplo
 - programar o login, ao invés de fazer na main e correr riscos de código bugado, cria-se uma nova branch, para implementar a funcionalidade. git branch login.
+# 5.1 git branch -d nome-da-branch
+## O que faz?
+- apaga uma branch local depois de terminar seu proposito e fazer o merge.
 
-# 6. git checkout nome-da-branch
+# 6. git checkout/switch nome-da-branch
 ## O que faz?
 - troca para outra branch.
 ## Quando usar?
@@ -66,11 +69,11 @@ git commit -m "Adicionado nota de comandos".
 
 # 9. git remote add origin
 ## O que faz?
-- conecta repositório local a um no github ( conecta local com a nuvem ).
+- conecta repositório local a um repositório Github ( conecta local com a nuvem ).
 ## Quando usar?
-- antes de dar o push, uma única vez, quando cria o repositório remoto.
+- uma única vez, após criar o repositório no GitHub.
 ## Exemplo
-- após criar repositório no github, git remote add origin email-do-projeto.
+- após criar repositório no github git init, git remote add origin https://github.com/usuario/repositorio.git
 
 # 10. git push
 ## O que faz?
@@ -78,5 +81,42 @@ git commit -m "Adicionado nota de comandos".
 ## Quando usar?
 - depois de fazer commits. para atualizar a nuvem.
 ## Exemplo
-- após commitar as mudanças na main, basta dar o push, git push main, para salvar no github.
-- git push -u origin nome-da-branch ( primeira vez que for dar push em uma branch )
+- Primeiro push da main: git push -u origin main
+- Depois disso: git push
+- Primeiro push de uma nova branch: git push -u origin login
+
+-u liga branch a branch do github.
+
+# 11. git pull
+## O que faz?
+- baixa do GitHub as alterações mais recentes e atualiza o repositório local.
+## Quando usar?
+- antes de começar a trabalhar, principalmente se o projeto puder ter alterações feitas em outro computador ou diretamente pelo GitHub.
+## Exemplo
+- git push = computador > GitHub.
+- git pull = GitHub > computador.
+
+# 12. git clone
+## O que faz?
+- baixa um repositório existente do GitHub para o computador.
+## Quando usar?
+- quando o projeto já existe no GitHub e você quer começar a trabalhar nele localmente.
+## Exemplo
+- git clone https://github.com/usuario/repositorio.git
+importante: se usou git clone, não precisa usar git init nem git remote add origin.
+
+# 13. git log --oneline
+## O que faz?
+- mostra o histórico de commits de forma resumida.
+## Quando usar?
+- quando quiser visualizar os saves anteriores do projeto.
+## Exemplo
+- git log --oneline
+
+# 13. git diff
+## O que faz?
+- mostra exatamente o que foi alterado nos arquivos.
+## Quando usar?
+- antes de dar git add, para conferir suas mudanças.
+## Exemplo
+- git diff
