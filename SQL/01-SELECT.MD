@@ -1,29 +1,44 @@
-# Select
-- Seleciona uma Coluna ou mais.
+# SELECT
 
-# From
-- Indica de qual tabela pertence a Coluna Selecionada.
+O comando `SELECT` é utilizado para **selecionar uma ou mais colunas** de uma tabela.
 
-<details>
-<summary><b>Selecionando Tudo</b></summary>
+O comando `FROM` indica **de qual tabela os dados serão selecionados**.
+
+> **Exemplo:** *mostrar o preço, tipo e marca dos doces cadastrados.*
+
+---
+
+## Sintaxe
 
 ```sql
-SELECT 
+SELECT coluna
+FROM tabela;
+```
+
+## Exemplos
+
+<details>
+<summary><b>Selecionando todas as colunas</b></summary>
+
+```sql
+SELECT
     *
-FROM doces
+FROM doces;
 ```
 
 </details>
 
+<br>
+
 <details>
-<summary><b>Selecionando Colunas específicas</b></summary>
+<summary><b>Selecionando colunas específicas</b></summary>
 
 ```sql
-SELECT 
+SELECT
     preco,
     tipo,
     marca
-FROM doces
+FROM doces;
 ```
 
 </details>
