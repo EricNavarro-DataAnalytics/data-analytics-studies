@@ -1,7 +1,21 @@
 # WHERE
+
 O comando `WHERE` é utilizado para **filtrar registros** de acordo com uma condição.
-> exemplo: mostrar clientes que gastaram mais de 500 reais.
+
+> **Exemplo:** mostrar clientes que gastaram mais de R$ 500.
+
+---
+
 ## Sintaxe
+
+```sql
+SELECT coluna
+FROM tabela
+WHERE condição;
+```
+
+## Exemplo
+
 <details>
 <summary><b>Filtrando por número</b></summary>
 
@@ -14,6 +28,8 @@ where preco > 10;
 ```
 
 </details>
+
+<br>
 
 <details>
 <summary><b>Filtrando por texto</b></summary>
