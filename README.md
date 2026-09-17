@@ -30,13 +30,13 @@ Os materiais são separados por tecnologia e assunto, com documentação própri
 
 Anotações organizadas por comando, contendo explicações, sintaxe e exemplos práticos.
 
-➡️ [Acessar estudos de SQL](SQL/README.md)
+➡️ [Acessar estudos de SQL](SQL/00-README.md)
 
 ### 🐙 Git & GitHub
 
 Anotações sobre versionamento, commits, branches e sincronização entre repositórios locais e remotos.
 
-➡️ [Acessar estudos de Git & GitHub](GitHub/README.md)
+➡️ [Acessar estudos de Git & GitHub](GitHub/00-README.md)
 
 ---
 
