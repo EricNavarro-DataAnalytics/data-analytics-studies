@@ -2,7 +2,7 @@
 
 O comando `WHERE` é utilizado para **filtrar registros** de acordo com uma condição.
 
-> **Exemplo:** mostrar clientes que gastaram mais de R$ 500.
+> **Exemplo:** *mostrar clientes que gastaram mais de R$ 500.*
 
 ---
 
@@ -14,17 +14,16 @@ FROM tabela
 WHERE condição;
 ```
 
-## Exemplo
+## Exemplos
 
 <details>
 <summary><b>Filtrando por número</b></summary>
 
 ```sql
-SELECT 
+SELECT
     *
 FROM doces
-
-where preco > 10;
+WHERE preco > 10;
 ```
 
 </details>
@@ -35,11 +34,10 @@ where preco > 10;
 <summary><b>Filtrando por texto</b></summary>
 
 ```sql
-SELECT 
+SELECT
     *
 FROM doces
-
-where marca = 'Nestlé';
+WHERE marca = 'Nestlé';
 ```
 
 </details>
