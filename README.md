@@ -1,5 +1,6 @@
 # 📊 Data Analytics Studies
-Olá, me chamo Eric, tenho 25 anos e estou cursando Banco de Dados ne ESAMC - Campinas.
+
+Olá, me chamo Eric e estou cursando **Banco de Dados na ESAMC - Campinas**.
 
 Este repositório reúne meus **estudos, anotações, exercícios e projetos** desenvolvidos durante minha formação na área de **Dados e Business Intelligence**.
 
@@ -11,44 +12,37 @@ Meu objetivo é registrar minha evolução de forma organizada e transformar o c
 
 Ao longo dos estudos, este repositório será atualizado com conteúdos relacionados a:
 
-- SQL e MySQL
+- SQL
 - Excel
 - Power Query
-- Power BI
-- Python
-- Bancos de Dados
-- Análise de Dados
-- Visualização de Dados
+- Power BI e DAX
+- Python para Análise de Dados
+- Estatística
 - Git e GitHub
 
 ---
 
 ## 📚 Conteúdos
 
+Os materiais são separados por tecnologia e assunto, com documentação própria para facilitar consultas.
+
 ### 🗃️ SQL
 
-Anotações organizadas por comando para facilitar consultas futuras.
+Anotações organizadas por comando, contendo explicações, sintaxe e exemplos práticos.
 
-| # | Conteúdo | Descrição |
-|---|---|---|
-| 01 | [SELECT](SQL/01-SELECT.md) | Seleção de dados e colunas |
-| 02 | [LIMIT](SQL/02-LIMIT.md) | Limitação da quantidade de resultados |
-| 03 | [WHERE](SQL/03-WHERE.md) | Filtragem de registros |
+➡️ [Acessar estudos de SQL](SQL/README.md)
 
 ### 🐙 Git & GitHub
 
-| Conteúdo | Descrição |
-|---|---|
-| [Comandos Git](GitHub/ComandosGit.md) | Comandos utilizados durante o versionamento |
-| [Fluxo Git](GitHub/fluxo.md) | Fluxo de trabalho entre Git e GitHub |
+Anotações sobre versionamento, commits, branches e sincronização entre repositórios locais e remotos.
+
+➡️ [Acessar estudos de Git & GitHub](GitHub/README.md)
 
 ---
 
 ## 📁 Organização do repositório
 
-Os conteúdos são separados por tecnologia e assunto.
-
-Cada pasta pode conter:
+Cada área possui sua própria documentação e pode conter:
 
 - anotações;
 - exemplos de código;
@@ -62,7 +56,7 @@ A organização foi pensada tanto para registrar minha evolução quanto para fu
 
 ## 🚀 Projetos
 
-Esta seção será atualizada conforme eu desenvolver projetos utilizando os conhecimentos adquiridos durante os estudos.
+Esta seção será atualizada conforme eu desenvolver projetos aplicando os conhecimentos adquiridos durante os estudos.
 
 <!--
 Exemplo futuro:
